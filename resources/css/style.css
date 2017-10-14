@@ -1,0 +1,133 @@
+/* Tea Cozy */
+
+body {
+  margin: 0;
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+
+/* Header section */
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.header nav{
+  flex: auto;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.header nav a{
+  padding: 20px;
+  color: seashell;
+}
+
+
+/* Overall Content sections */
+.content {
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  padding-top: 80px;
+  width: 1200px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.section {
+  margin: auto;
+  padding-top: 20px;
+}
+
+
+/* Mission section */
+#Mission {
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+}
+
+#Mission .missionTxt {
+  background-color: black;
+  width: 100%;
+}
+
+
+/* Featured Tea section */
+#Teas {
+  height: 700px;
+  width: 1000px;
+}
+
+#Teas .teaChoices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Teas img {
+  height: 200px;
+  width: 300px;
+  padding-right: 20px;
+  display: block;
+}
+
+#Teas .teasTxt{
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+/* Locations section */
+#Locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+}
+
+#Locations .locationsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1200px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin: 5px 15px;
+  background-color: black;
+  opacity: 1.0;
+}
+
+
+/* Contact section */
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer Section */
+.footer {
+  text-align: left;
+  padding-left: 20px;
+}
